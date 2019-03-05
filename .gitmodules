@@ -1,0 +1,14 @@
+[submodule "libraries/lib1"]
+	path = libraries/lib1
+	url = https://github.com/lib1
+        ignore = dirty
+[submodule "libraries/lib2"]
+	path = libraries/lib2
+	url = https://github.com/lib2
+        ignore = dirty
+[submodule "libraries/lib3"]
+	path = libraries/lib3
+	url = https://github.com/lib3
+	branch = br1
+
+
