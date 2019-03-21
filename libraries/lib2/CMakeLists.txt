@@ -3,9 +3,9 @@ file(GLOB HEADERS "include/project_namespace/lib2_namespace/*.hpp"
                   )
 
 ## SORT .cpp by most likely to change / break compile
+# default archive static library
 add_library( lib2
              lib2.cpp
-             ${HEADERS}
              )
 
 #target_link_libraries( lib2 ... ... ... )

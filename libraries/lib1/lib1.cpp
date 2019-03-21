@@ -1,6 +1,7 @@
-#include <project_namespace/lib_namaspace/hello.hpp>
+#include <project_namespace/lib1_namespace/lib1.hpp>
 
-namespace eosio { namespace chain {
+namespace project_namespace {
+    namespace lib1_namaspace {
 	
 	void printMessage(char* message)
 	{
@@ -8,5 +9,5 @@ namespace eosio { namespace chain {
 		printf("%s\n", message);
 	}
 
-	}
+  }
 }
